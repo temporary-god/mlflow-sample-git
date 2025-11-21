@@ -133,7 +133,7 @@ def main(args):
                 signature=signature,
                 artifacts=artifacts,
             )
-            print("✅ Logged pyfunc model and included reference CSV in artifacts")
+            print("✅ Logged pyfunc model and included reference CSV in artifacts..!!")
         except Exception as e:
             print(f"[ERROR] Failed to log model: {e}")
             raise
